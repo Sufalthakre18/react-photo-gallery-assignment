@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+
+@theme {
+  --font-sans: "DM Sans", sans-serif;
+  --font-serif: "DM Serif Display", serif;
+ 
+  --color-bg: #f7f5f2;
+  --color-card: #ffffff;
+  --color-border: #e5e0d8;
+  --color-text: #1c1917;
+  --color-muted: #78716c;
+  --color-accent: #2563eb;
+  --color-heart: #e11d48;
+  --color-heart-bg: #fff1f2;
+}
+ 
+body {
+  background-color: var(--color-bg);
+  font-family: var(--font-sans);
+  color: var(--color-text);
+}
